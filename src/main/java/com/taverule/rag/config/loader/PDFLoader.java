@@ -1,4 +1,4 @@
-package com.taverule.rag.loader;
+package com.taverule.rag.config.loader;
 
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
