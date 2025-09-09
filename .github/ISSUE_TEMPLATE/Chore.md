@@ -1,7 +1,7 @@
 ---
 name: Build
 about: Suggest an idea for this project
-title: "[Build] [Issue name]"
+title: "[Chore] [Issue name]"
 labels: ''
 assignees: ''
 
