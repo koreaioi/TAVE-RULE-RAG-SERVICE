@@ -7,7 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomepageController {
 
     @GetMapping("/home")
-    public String korea(){
+    public String home(){
+        return "homepage";
+    }
+
+    @GetMapping("/")
+    public String rootPage(){
         return "homepage";
     }
 
