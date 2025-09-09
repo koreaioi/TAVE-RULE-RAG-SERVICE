@@ -1,0 +1,2 @@
+# TAVE-RULE-RAG-SERVICE
+Tave 회칙 LLM RAG 서비스
