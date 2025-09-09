@@ -2,6 +2,9 @@ spring:
   ai:
     openai:
       api-key: ${API_KEY}
+      chat:
+        options:
+          model: gpt-4o-mini
     vectorstore:
       pgvector:
         index-type: HNSW
