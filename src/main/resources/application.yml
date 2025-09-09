@@ -1,0 +1,13 @@
+spring:
+  ai:
+    openai:
+      api-key: ${API_KEY}
+    vectorstore:
+      pgvector:
+        index-type: HNSW
+        distance-type: cosine_distance
+        dimensions: 1536
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
